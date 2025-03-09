@@ -1,0 +1,7 @@
+services:
+  simple-calculator:
+    build: .
+    restart: always
+    ports:
+      - 9000:9999
+    read_only: true
